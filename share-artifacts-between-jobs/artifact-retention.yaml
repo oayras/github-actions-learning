@@ -1,0 +1,5 @@
+- uses: actions/upload-artifact
+  with:
+    name: harness-build-log
+    path: bin/output/logs/harness.log
+    retention-days: 12
